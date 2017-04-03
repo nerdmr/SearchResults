@@ -368,7 +368,7 @@ class SearchRender {
                 /* MODAL SCROLL HANDLING */
                 var topToCompare = this.SearchResultsElement.scrollTop;
 
-                if (topToCompare > this.fixThreshold && (!this.SearchResultsElement.classList.contains("fix-side") || forceHandle) {
+                if (topToCompare > this.fixThreshold && (!this.SearchResultsElement.classList.contains("fix-side") || forceHandle)) {
                     if (!this.animateSideTop) {
                         this.SearchResultsElement.classList.add("fix-side");
                     }
