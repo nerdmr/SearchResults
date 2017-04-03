@@ -1,4 +1,7 @@
 /// <reference path="SearchObjects.ts"/>
+/**
+ * See https://github.com/nerdmr/SearchResults#technical for some details about how this works.
+ */
 var SearchRender = (function () {
     /**
      * Takes the html element that represents the search results in page.

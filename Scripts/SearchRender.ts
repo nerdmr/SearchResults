@@ -1,5 +1,9 @@
 /// <reference path="SearchObjects.ts"/>
 
+/**
+ * See https://github.com/nerdmr/SearchResults#technical for some details about how this works.
+ */
+
 class SearchRender {
     /**
      * OPTIONS
