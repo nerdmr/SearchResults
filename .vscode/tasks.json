@@ -1,0 +1,29 @@
+{
+    "version": "0.1.0",
+    
+    "showOutput": "always",
+    "command": "cmd", 
+    "isShellCommand": true,
+    "args": ["/C"],
+    "tasks": [ 
+        {
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "taskName": "tscompile",    
+    "command": "tsc",
+    "isBuildCommand": true,
+    "isShellCommand": true,
+    "args": ["-p", "."],
+    "showOutput": "always",
+    "problemMatcher": "$tsc"
+    },
+            // Sass configuration
+    {
+        "taskName": "sass compile",
+        "command": "node-sass",
+        "isBuildCommand": true,
+        "isShellCommand": true,
+        "args": ["Styles/*.scss", "Styles/styles.css"]
+    }
+        ]
+}

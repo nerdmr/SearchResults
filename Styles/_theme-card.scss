@@ -1,0 +1,8 @@
+.card-theme {
+    .result-image, .side-tile, .search-result-item > a:hover, &:not(.no-bg).color-coded .search-result-item > a {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    .search-result-item > a {
+        transition: box-shadow .15s ease-in-out background .15s ease-in-out;
+    }
+}

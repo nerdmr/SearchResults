@@ -1,0 +1,15 @@
+$Radius:6px;
+
+.round-theme {
+    .search-input {
+        border-radius: $Radius;
+        border:1px solid #ccc;
+    }
+    .result-image {
+        border-radius: $Radius;
+    }
+
+    .search-result-item > a, .side-tile, .loading-img:after {
+        border-radius: $Radius;
+    }
+} 
